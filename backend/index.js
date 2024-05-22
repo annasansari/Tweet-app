@@ -7,7 +7,7 @@ const axios = require('axios');
 
 const app = express();
 
-const MONGO = 'mongodb+srv://anas:anas@tweetserver.rhvsnwp.mongodb.net/tweetDatabase?retryWrites=true&w=majority&appName=tweetServer'
+const MONGO = 'mongodb+srv://hassanzindani030:ojvYwKeiRPd3pShX@cluster0.1sbjnwu.mongodb.net/tweetDatabase?retryWrites=true&w=majority&appName=Cluster0'
 
 mongoose.connect(MONGO).then(() => {
     console.log("DB connected");
