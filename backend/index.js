@@ -7,7 +7,7 @@ const axios = require('axios');
 
 const app = express();
 
-const MONGO = 'mongodb+srv://hassanzindani030:ojvYwKeiRPd3pShX@cluster0.1sbjnwu.mongodb.net/tweetDatabase?retryWrites=true&w=majority&appName=Cluster0'
+const MONGO = 'mongodb+srv://anas:anas@tweetserver.rhvsnwp.mongodb.net/tweetDatabase?retryWrites=true&w=majority&appName=tweetServer'
 
 mongoose.connect(MONGO).then(() => {
     console.log("DB connected");
@@ -38,6 +38,6 @@ app.get('/', async (req, res) => {
     }
 });
 
-app.listen(5000, () => {
+app.listen(8000, () => {
     console.log('Server is running on port 8000');
 });
