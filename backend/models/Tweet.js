@@ -4,7 +4,7 @@ const tweetSchema = new mongoose.Schema(
     {
         fullName: {
             type: String,
-            default: "Hassan Zandani"
+            default: "Umair Sattar"
         },
         content: {
             type: String,
