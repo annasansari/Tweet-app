@@ -5,7 +5,7 @@ import LogOut from "../assets/images/icons/log-out.svg";
 import { useNavigate } from "react-router-dom";
 
 const Header = ({ openSidebar }) => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const handleLogout = () => {
     localStorage.clear();
